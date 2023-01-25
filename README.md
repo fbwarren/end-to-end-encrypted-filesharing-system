@@ -55,7 +55,7 @@ To revoke access to a file from a user we:
 
 Each append to a file is stored as a separate record in the datastore. Each file keeps track of a list of all of its appends, so when we want to append to a file, we just create a new record in the datastore and append the UUID for the record to the list.  
 
-<br> <br> <br> <br> <br> <br>
+<br>
 
 ## **Security analysis**  
 
