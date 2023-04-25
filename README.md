@@ -4,7 +4,7 @@
 
 There are two servers that users will be accessing:  
 - **Keystore**  
-This is a **trusted** server where users can publish their RSA public keys. It is a key-value store of `(username->RSA public keys) pairs.  
+This is a **trusted** server where users can publish their RSA public keys. It is a key-value store of `(username->RSA public keys)` pairs.  
 
 - **Datastore**  
 This is an **untrusted** server that is used to store files. Files are encrypted such that IND-CPA confidentiality and integrity of file names and file contents are protected. Files are partitioned by their owner, so duplicate filenames might be possible.
